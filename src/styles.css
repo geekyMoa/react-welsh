@@ -1,0 +1,81 @@
+html, body {
+  margin: 0;
+  border: 0;
+  font-family: "PT Sans";
+  line-height: 1.5;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+a {
+  text-decoration: none;
+  color: magenta;
+  transition: color 0.2s ease-in;
+}
+
+a:hover {
+  color: darkmagenta;
+}
+
+.MenuBar {
+  color: #000;
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+  background: #555;
+  display: inline-block;
+  font-weight: 100;
+  padding: 20px 0;
+}
+
+.MenuBar-list {
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+}
+
+.MenuBar-list li {
+  margin: 0;
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.MenuBar-list a {
+  color: #f9f9f9;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: color 0.2s ease-in;
+}
+
+.MenuBar-list a:hover {
+  color: magenta;
+}
+
+.MenuBar-title {
+  margin: 0px 40px 0 0;
+  display: inline-block;
+  line-height: 1;
+  font-weight: 500;
+  position: relative;
+  top: 2px;
+}
+
+.SortButton-label {
+  display: inline-block;
+  text-transform: capitalize;
+  padding-right: 3px;
+  font-weight: 600;
+}
+
+.DataTable td {
+  padding: 5px 10px;
+  border: 1px solid #999;
+}
+
+.DataTable thead td {
+  background: #eee;
+}
